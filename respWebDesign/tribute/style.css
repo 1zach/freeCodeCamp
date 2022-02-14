@@ -1,0 +1,63 @@
+
+.main {
+    background-color: #fff9f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    
+}
+.history {
+    font-size: large;
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 3;
+    
+    
+}
+
+.img {
+    background-color: white;
+    padding: 3% 8%;
+    text-align: center;
+    box-shadow: 10px, 10px, grey;
+}
+.under {
+    padding-bottom: 10px;
+
+
+}
+
+.info {
+    line-height: 1.6;
+    max-width: 500px;
+    text-align: left;
+}
+.infoList {
+    max-width: 500px;
+    text-align: left;
+    line-height: 32px;
+
+}
+.closing {
+    font-weight: bold;
+    font-size: smaller;
+    display: flex;
+    
+}
+
+.poemTitle {
+    display:flex;
+    text-align: right;
+    line-height: 10px;
+    align-self: center;
+    
+}
