@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Submit Your Form</title>
+</head>
+<body>
+    <h1 title id="title">Preparing for Korea</h1>
+    <p id = "description"><em>Help us help you by filling out <br>this brief survery</p></em>
+
+    <div class = "container">
+        <form class = "survey-form">
+            <label for="name" id="name-Label">Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter Your Name" required=""><br>
+            
+            <label for="email" id="email-label">Email Address:</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter Your E-Mail Address" required=""><br>
+
+            <label for ="age" id="number-label">Age(Optional)</label><br>
+            <input type="number" min="7" max="100" id="number" name="age" placeholder="Enter Your Age"><br>
+
+
+        <div class="visitKoreaButtons">
+            <p>Have you ever visited South Korea?</p>
+
+            <input type="radio" id="question1" name="visitKorea" value="Yes">
+            <label for="question1">Yes</label><br>
+            <input type="radio" id="question2" name="visitKorea" value="No">
+            <label for="question2">No</label><br>
+            <input type="radio" id="question3" name="visitKorea" value="No, but I want to!">
+            <label for="question3">No, but I want to!</label><br>
+        </div>
+        <div id="dropDown">
+        <label for="stuffYouWantToSee"><p>What excites you most about Korea?</p></label><br>
+        <select id="stuff" name="stuff">
+            <option value="choice">--Pick One--</option>
+            <option value="food">The Food!</option>
+            <option value="shopping">The Shopping!</option>
+            <option value="culture">The Culture!</option>
+            <option value="everything">Everything!</option>
+
+        
+
+        </select>
+        </div>
+
+        <div class="checklist">
+            <p>Where Would You Like to Go?<span class="subText"> (Check all that apply)</span></p>
+            <div>
+            <input type="checkbox" id="checkbox" name="checkbox" value="Seoul">
+            <label for="checkbox">Seoul</label></div>
+            <div>
+            <input type="checkbox" id="checkbox" name="checkbox" value="Busan">
+            <label for="checkbox">Busan</label></div>
+            <div>
+            <input type="checkbox" id="checkbox" name="checkbox" value="Daegu">
+            <label for="checkbox">Daegu</label></div>
+            <div>
+            <input type="checkbox" id="checkbox" name="checkbox" value="Daejeon">
+            <label for="checkbox">Daejeon</label></div>
+            <div>
+            <input type="checkbox" id="checkbox" name="checkbox" value="Other">
+            <label for="checkbox">Other</label></div>
+        </div>
+
+        <div class="comments">
+            <p>Tell Us What You're Looking Forward to the Most:</p>
+            <textarea placeholder="Add Your Comment Here" name="Comments" id="boxarea" rows="auto" cols="100%">
+
+            </textarea>
+
+        </div>
+
+
+
+
+
+        <button class= "submit">Submit</button>
+        </form>
+
+
+
+
+
+
+    </div>
+</body>
+</html>
